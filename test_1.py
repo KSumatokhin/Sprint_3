@@ -43,4 +43,7 @@ class MobilePhone(Phone):
 rotary_phone = Phone('дисковый')
 mobile_phone = MobilePhone('сенсорный', 'LTE')
 
+mobile_phone.battery_type
+# rotary_phone.bay
+
 print(mobile_phone)
